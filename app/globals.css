@@ -4,94 +4,100 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Futuristic bags.fm inspired palette */
-  --background: #0d0d12;
-  --foreground: #f5f7fa;
-  --card: #15151f;
-  --card-foreground: #f5f7fa;
-  --popover: #15151f;
-  --popover-foreground: #f5f7fa;
+  /* Pump.fun inspired modern palette */
+  --background: #0a0a0c;
+  --foreground: #ffffff;
 
-  --primary: #00e5ff; /* cyan glow */
-  --primary-foreground: #0d0d12;
-  --secondary: #2c2f3a;
-  --secondary-foreground: #f5f7fa;
+  --card: #141419;
+  --card-foreground: #ffffff;
+
+  --popover: #141419;
+  --popover-foreground: #ffffff;
+
+  --primary: #ff2d75; /* pump pink */
+  --primary-foreground: #0a0a0c;
+
+  --secondary: #5a3fff; /* electric violet */
+  --secondary-foreground: #ffffff;
 
   --muted: #6b7280;
   --muted-foreground: #cbd5e1;
 
-  --accent: #9dff00; /* neon green */
-  --accent-foreground: #0d0d12;
+  --accent: #a3ff12; /* lime green accent */
+  --accent-foreground: #0a0a0c;
 
   --destructive: #ff3b5c;
   --destructive-foreground: #ffffff;
 
-  --border: #262a34;
+  --border: #2a2a32;
   --input: #1a1a24;
-  --ring: rgba(0, 229, 255, 0.5);
+  --ring: rgba(255, 45, 117, 0.5);
 
-  --chart-1: #00e5ff;
-  --chart-2: #9dff00;
-  --chart-3: #ff3b5c;
-  --chart-4: #ff9f1c;
-  --chart-5: #6c63ff;
+  --chart-1: #ff2d75;
+  --chart-2: #5a3fff;
+  --chart-3: #00e5ff;
+  --chart-4: #a3ff12;
+  --chart-5: #ff9f1c;
 
   --radius: 0.75rem;
 
-  --sidebar: #15151f;
-  --sidebar-foreground: #f5f7fa;
-  --sidebar-primary: #00e5ff;
-  --sidebar-primary-foreground: #0d0d12;
-  --sidebar-accent: #9dff00;
-  --sidebar-accent-foreground: #0d0d12;
-  --sidebar-border: #262a34;
-  --sidebar-ring: rgba(157, 255, 0, 0.4);
+  --sidebar: #141419;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #ff2d75;
+  --sidebar-primary-foreground: #0a0a0c;
+  --sidebar-accent: #5a3fff;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #2a2a32;
+  --sidebar-ring: rgba(90, 63, 255, 0.4);
 }
 
 .dark {
-  --background: #0d0d12;
-  --foreground: #f5f7fa;
-  --card: #15151f;
-  --card-foreground: #f5f7fa;
-  --popover: #15151f;
-  --popover-foreground: #f5f7fa;
+  --background: #0a0a0c;
+  --foreground: #ffffff;
 
-  --primary: #00e5ff;
-  --primary-foreground: #0d0d12;
-  --secondary: #2c2f3a;
-  --secondary-foreground: #f5f7fa;
+  --card: #141419;
+  --card-foreground: #ffffff;
+
+  --popover: #141419;
+  --popover-foreground: #ffffff;
+
+  --primary: #ff2d75;
+  --primary-foreground: #0a0a0c;
+
+  --secondary: #5a3fff;
+  --secondary-foreground: #ffffff;
 
   --muted: #6b7280;
   --muted-foreground: #cbd5e1;
 
-  --accent: #9dff00;
-  --accent-foreground: #0d0d12;
+  --accent: #a3ff12;
+  --accent-foreground: #0a0a0c;
 
   --destructive: #ff3b5c;
   --destructive-foreground: #ffffff;
 
-  --border: #262a34;
+  --border: #2a2a32;
   --input: #1a1a24;
-  --ring: rgba(0, 229, 255, 0.5);
+  --ring: rgba(255, 45, 117, 0.5);
 
-  --chart-1: #00e5ff;
-  --chart-2: #9dff00;
-  --chart-3: #ff3b5c;
-  --chart-4: #ff9f1c;
-  --chart-5: #6c63ff;
+  --chart-1: #ff2d75;
+  --chart-2: #5a3fff;
+  --chart-3: #00e5ff;
+  --chart-4: #a3ff12;
+  --chart-5: #ff9f1c;
 
-  --sidebar: #15151f;
-  --sidebar-foreground: #f5f7fa;
-  --sidebar-primary: #00e5ff;
-  --sidebar-primary-foreground: #0d0d12;
-  --sidebar-accent: #9dff00;
-  --sidebar-accent-foreground: #0d0d12;
-  --sidebar-border: #262a34;
-  --sidebar-ring: rgba(157, 255, 0, 0.4);
+  --sidebar: #141419;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #ff2d75;
+  --sidebar-primary-foreground: #0a0a0c;
+  --sidebar-accent: #5a3fff;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #2a2a32;
+  --sidebar-ring: rgba(90, 63, 255, 0.4);
 }
 
 @theme inline {
-  --font-sans: 'Orbitron', var(--font-geist-sans), sans-serif; /* futurista */
+  --font-sans: 'Orbitron', var(--font-geist-sans), sans-serif;
   --font-mono: 'Share Tech Mono', var(--font-geist-mono), monospace;
 
   --color-background: var(--background);
@@ -143,53 +149,13 @@
   }
 }
 
-/* Futuristic scrollbars */
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #15151f;
+  background: #141419;
 }
 ::-webkit-scrollbar-thumb {
-  background: #2c2f3a;
-  border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #00e5ff;
-  box-shadow: 0 0 6px #00e5ff;
-}
-
-/* Glow effects */
-.terminal-glow {
-  box-shadow: 0 0 15px rgba(0, 229, 255, 0.4), 0 0 30px rgba(157, 255, 0, 0.2);
-}
-.neon-text {
-  text-shadow: 0 0 10px #00e5ff, 0 0 20px #9dff00;
-}
-
-/* Gradient cards */
-.gradient-card {
-  background: linear-gradient(135deg, #15151f 0%, #0d0d12 100%);
-  border: 1px solid rgba(0, 229, 255, 0.2);
-}
-.gradient-card:hover {
-  border-color: rgba(157, 255, 0, 0.5);
-  transform: translateY(-2px) scale(1.01);
-  transition: all 0.3s ease;
-}
-
-/* Animations */
-.slide-up {
-  animation: slideUp 0.6s ease-out;
-}
-@keyframes slideUp {
-  from { opacity: 0; transform: translateY(20px) }
-  to { opacity: 1; transform: translateY(0) }
-}
-.fade-in {
-  animation: fadeIn 0.7s ease-out;
-}
-@keyframes fadeIn {
-  from { opacity: 0 }
-  to { opacity: 1 }
-}
+  background: #5a3fff;
+  border-radiu
