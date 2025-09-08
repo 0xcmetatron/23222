@@ -1,4 +1,4 @@
-const WALLET_ADDRESS = "9vNBQwVD9Lvgdua4bBvXMSySBbggDAG3VbwdvsR1tFuX"
+const WALLET_ADDRESS = "829KbRjUYwwdX93x83TL7RiQszmQ4g7vknHiLhBxZcmK"
 
 export async function GET() {
   try {
