@@ -53,7 +53,7 @@ export function TransactionFeed() {
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-4">
         <CardTitle className="text-lg font-semibold text-accent flex items-center gap-3">
           <Activity className="h-5 w-5" />
-          Buyback Feed
+          Feed
         </CardTitle>
         <div className="flex items-center space-x-2">
           <Badge variant="secondary" className="bg-accent/20 text-accent border-accent/30">
