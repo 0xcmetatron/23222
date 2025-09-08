@@ -4,102 +4,80 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Pump.fun inspired modern palette */
-  --background: #0a0a0c;
-  --foreground: #ffffff;
-
-  --card: #141419;
-  --card-foreground: #ffffff;
-
-  --popover: #141419;
-  --popover-foreground: #ffffff;
-
-  --primary: #ff2d75; /* pump pink */
-  --primary-foreground: #0a0a0c;
-
-  --secondary: #5a3fff; /* electric violet */
-  --secondary-foreground: #ffffff;
-
+  /* Updated color tokens for pump.fun inspired design */
+  --background: #1e1e2f;
+  --foreground: #f9fafb;
+  --card: #2a2a3b;
+  --card-foreground: #f9fafb;
+  --popover: #2a2a3b;
+  --popover-foreground: #f9fafb;
+  --primary: #0891b2;
+  --primary-foreground: #ffffff;
+  --secondary: #4b5563;
+  --secondary-foreground: #f9fafb;
   --muted: #6b7280;
-  --muted-foreground: #cbd5e1;
-
-  --accent: #a3ff12; /* lime green accent */
-  --accent-foreground: #0a0a0c;
-
-  --destructive: #ff3b5c;
+  --muted-foreground: #f9fafb;
+  --accent: #10b981;
+  --accent-foreground: #ffffff;
+  --destructive: #ff4d4f;
   --destructive-foreground: #ffffff;
-
-  --border: #2a2a32;
-  --input: #1a1a24;
-  --ring: rgba(255, 45, 117, 0.5);
-
-  --chart-1: #ff2d75;
-  --chart-2: #5a3fff;
-  --chart-3: #00e5ff;
-  --chart-4: #a3ff12;
-  --chart-5: #ff9f1c;
-
-  --radius: 0.75rem;
-
-  --sidebar: #141419;
-  --sidebar-foreground: #ffffff;
-  --sidebar-primary: #ff2d75;
-  --sidebar-primary-foreground: #0a0a0c;
-  --sidebar-accent: #5a3fff;
+  --border: #475569;
+  --input: #2a2a3b;
+  --ring: rgba(16, 185, 129, 0.5);
+  --chart-1: #10b981;
+  --chart-2: #0891b2;
+  --chart-3: #6b7280;
+  --chart-4: #ff4d4f;
+  --chart-5: #ffb74d;
+  --radius: 0.5rem;
+  --sidebar: #2a2a3b;
+  --sidebar-foreground: #f9fafb;
+  --sidebar-primary: #0891b2;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #10b981;
   --sidebar-accent-foreground: #ffffff;
-  --sidebar-border: #2a2a32;
-  --sidebar-ring: rgba(90, 63, 255, 0.4);
+  --sidebar-border: #475569;
+  --sidebar-ring: rgba(16, 185, 129, 0.5);
 }
 
 .dark {
-  --background: #0a0a0c;
-  --foreground: #ffffff;
-
-  --card: #141419;
-  --card-foreground: #ffffff;
-
-  --popover: #141419;
-  --popover-foreground: #ffffff;
-
-  --primary: #ff2d75;
-  --primary-foreground: #0a0a0c;
-
-  --secondary: #5a3fff;
-  --secondary-foreground: #ffffff;
-
+  --background: #1e1e2f;
+  --foreground: #f9fafb;
+  --card: #2a2a3b;
+  --card-foreground: #f9fafb;
+  --popover: #2a2a3b;
+  --popover-foreground: #f9fafb;
+  --primary: #0891b2;
+  --primary-foreground: #ffffff;
+  --secondary: #4b5563;
+  --secondary-foreground: #f9fafb;
   --muted: #6b7280;
-  --muted-foreground: #cbd5e1;
-
-  --accent: #a3ff12;
-  --accent-foreground: #0a0a0c;
-
-  --destructive: #ff3b5c;
+  --muted-foreground: #f9fafb;
+  --accent: #10b981;
+  --accent-foreground: #ffffff;
+  --destructive: #ff4d4f;
   --destructive-foreground: #ffffff;
-
-  --border: #2a2a32;
-  --input: #1a1a24;
-  --ring: rgba(255, 45, 117, 0.5);
-
-  --chart-1: #ff2d75;
-  --chart-2: #5a3fff;
-  --chart-3: #00e5ff;
-  --chart-4: #a3ff12;
-  --chart-5: #ff9f1c;
-
-  --sidebar: #141419;
-  --sidebar-foreground: #ffffff;
-  --sidebar-primary: #ff2d75;
-  --sidebar-primary-foreground: #0a0a0c;
-  --sidebar-accent: #5a3fff;
+  --border: #475569;
+  --input: #2a2a3b;
+  --ring: rgba(16, 185, 129, 0.5);
+  --chart-1: #10b981;
+  --chart-2: #0891b2;
+  --chart-3: #6b7280;
+  --chart-4: #ff4d4f;
+  --chart-5: #ffb74d;
+  --sidebar: #2a2a3b;
+  --sidebar-foreground: #f9fafb;
+  --sidebar-primary: #0891b2;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #10b981;
   --sidebar-accent-foreground: #ffffff;
-  --sidebar-border: #2a2a32;
-  --sidebar-ring: rgba(90, 63, 255, 0.4);
+  --sidebar-border: #475569;
+  --sidebar-ring: rgba(16, 185, 129, 0.5);
 }
 
 @theme inline {
-  --font-sans: 'Orbitron', var(--font-geist-sans), sans-serif;
-  --font-mono: 'Share Tech Mono', var(--font-geist-mono), monospace;
-
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -127,8 +105,7 @@
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 6px);
-
+  --radius-xl: calc(var(--radius) + 4px);
   --color-sidebar: var(--sidebar);
   --color-sidebar-foreground: var(--sidebar-foreground);
   --color-sidebar-primary: var(--sidebar-primary);
@@ -144,18 +121,87 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground font-sans;
-    letter-spacing: 0.5px;
+    @apply bg-background text-foreground font-mono;
   }
 }
 
-/* Scrollbar */
+/* Enhanced pump.fun inspired styles */
 ::-webkit-scrollbar {
   width: 8px;
 }
+
 ::-webkit-scrollbar-track {
-  background: #141419;
+  background: #2a2a3b;
 }
+
 ::-webkit-scrollbar-thumb {
-  background: #5a3fff;
-  border-radiu
+  background: #475569;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #10b981;
+}
+
+.terminal-glow {
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.3), 0 0 40px rgba(16, 185, 129, 0.1);
+}
+
+.pulse-green {
+  animation: pulse-green 2s infinite;
+}
+
+@keyframes pulse-green {
+  0%,
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
+  }
+  50% {
+    opacity: 0.7;
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.8);
+  }
+}
+
+.gradient-card {
+  background: linear-gradient(135deg, #2a2a3b 0%, #1e1e2f 100%);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.gradient-card:hover {
+  border-color: rgba(16, 185, 129, 0.4);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+.neon-text {
+  text-shadow: 0 0 10px rgba(16, 185, 129, 0.8);
+}
+
+.slide-up {
+  animation: slideUp 0.5s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
