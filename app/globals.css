@@ -4,85 +4,86 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #ffffff;     /* blanco limpio del sitio */
-  --foreground: #55d292;     /* verde pump.fun */
+  /* Dark futuristic pump.fun inspired palette */
+  --background: #0b0f14;        /* fondo oscuro */
+  --foreground: #e5e7eb;        /* texto claro */
 
-  --card: #ffffff;
-  --card-foreground: #55d292;
+  --card: #141a22;
+  --card-foreground: #e5e7eb;
 
-  --popover: #ffffff;
-  --popover-foreground: #55d292;
+  --popover: #141a22;
+  --popover-foreground: #e5e7eb;
 
-  --primary: #55d292;
-  --primary-foreground: #ffffff;
+  --primary: #55d292;           /* verde oficial pump.fun */
+  --primary-foreground: #0b0f14;
 
-  --secondary: #ffffff;
-  --secondary-foreground: #55d292;
+  --secondary: #1f2933;
+  --secondary-foreground: #e5e7eb;
 
-  --muted: #ffffff;
-  --muted-foreground: #55d292;
+  --muted: #374151;
+  --muted-foreground: #9ca3af;
 
   --accent: #55d292;
-  --accent-foreground: #ffffff;
+  --accent-foreground: #0b0f14;
 
-  --destructive: #55d292;
+  --destructive: #ef4444;
   --destructive-foreground: #ffffff;
 
-  --border: #55d292;
-  --input: #ffffff;
-  --ring: rgba(85, 210, 146, 0.5);
+  --border: #2d3748;
+  --input: #141a22;
+  --ring: rgba(85, 210, 146, 0.6);
 
   --chart-1: #55d292;
-  --chart-2: #55d292;
-  --chart-3: #55d292;
-  --chart-4: #55d292;
-  --chart-5: #55d292;
+  --chart-2: #06b6d4;
+  --chart-3: #a855f7;
+  --chart-4: #ef4444;
+  --chart-5: #facc15;
 
   --radius: 0.5rem;
 
-  --sidebar: #ffffff;
-  --sidebar-foreground: #55d292;
+  --sidebar: #141a22;
+  --sidebar-foreground: #e5e7eb;
   --sidebar-primary: #55d292;
-  --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #55d292;
-  --sidebar-accent-foreground: #ffffff;
-  --sidebar-border: #55d292;
-  --sidebar-ring: rgba(85, 210, 146, 0.5);
+  --sidebar-primary-foreground: #0b0f14;
+  --sidebar-accent: #06b6d4;
+  --sidebar-accent-foreground: #0b0f14;
+  --sidebar-border: #2d3748;
+  --sidebar-ring: rgba(85, 210, 146, 0.6);
 }
 
 .dark {
-  --background: #ffffff;
-  --foreground: #55d292;
-  --card: #ffffff;
-  --card-foreground: #55d292;
-  --popover: #ffffff;
-  --popover-foreground: #55d292;
+  --background: #0b0f14;
+  --foreground: #e5e7eb;
+  --card: #141a22;
+  --card-foreground: #e5e7eb;
+  --popover: #141a22;
+  --popover-foreground: #e5e7eb;
   --primary: #55d292;
-  --primary-foreground: #ffffff;
-  --secondary: #ffffff;
-  --secondary-foreground: #55d292;
-  --muted: #ffffff;
-  --muted-foreground: #55d292;
+  --primary-foreground: #0b0f14;
+  --secondary: #1f2933;
+  --secondary-foreground: #e5e7eb;
+  --muted: #374151;
+  --muted-foreground: #9ca3af;
   --accent: #55d292;
-  --accent-foreground: #ffffff;
-  --destructive: #55d292;
+  --accent-foreground: #0b0f14;
+  --destructive: #ef4444;
   --destructive-foreground: #ffffff;
-  --border: #55d292;
-  --input: #ffffff;
-  --ring: rgba(85, 210, 146, 0.5);
+  --border: #2d3748;
+  --input: #141a22;
+  --ring: rgba(85, 210, 146, 0.6);
   --chart-1: #55d292;
-  --chart-2: #55d292;
-  --chart-3: #55d292;
-  --chart-4: #55d292;
-  --chart-5: #55d292;
-  --sidebar: #ffffff;
-  --sidebar-foreground: #55d292;
+  --chart-2: #06b6d4;
+  --chart-3: #a855f7;
+  --chart-4: #ef4444;
+  --chart-5: #facc15;
+  --sidebar: #141a22;
+  --sidebar-foreground: #e5e7eb;
   --sidebar-primary: #55d292;
-  --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #55d292;
-  --sidebar-accent-foreground: #ffffff;
-  --sidebar-border: #55d292;
-  --sidebar-ring: rgba(85, 210, 146, 0.5);
+  --sidebar-primary-foreground: #0b0f14;
+  --sidebar-accent: #06b6d4;
+  --sidebar-accent-foreground: #0b0f14;
+  --sidebar-border: #2d3748;
+  --sidebar-ring: rgba(85, 210, 146, 0.6);
 }
 
 @theme inline {
@@ -135,17 +136,17 @@
   }
 }
 
-/* Estética limpia y minimal basada en pump.fun */
+/* Enhanced futuristic pump.fun inspired styles */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #ffffff;
+  background: #0b0f14;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #55d292;
+  background: #2d3748;
   border-radius: 4px;
 }
 
@@ -173,7 +174,7 @@
 }
 
 .gradient-card {
-  background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
+  background: linear-gradient(135deg, #141a22 0%, #0b0f14 100%);
   border: 1px solid rgba(85, 210, 146, 0.3);
 }
 
